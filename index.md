@@ -35,7 +35,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 ### <a href="https://www.mckinsey.com/business-functions/sustainability/how-we-help-clients">McKinsey - New Perspective on ESG (February 2020)</a>
 
 -- **Increasing public and company _perception_** and pressure that ESG programs create short-term and long-term value <br>
--- 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value) <br>
+&nbsp;&nbsp;&nbsp;- 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value) <br>
 
 <p align="center">
   <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
@@ -43,8 +43,8 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 <br>
 
 -- 58% of respondents say **the current political environment has _increased_** the importance of ESG programs <br>
--- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior <br>
--- The existence of high-performing ESG programs is **a proxy for good management** <br>
+&nbsp;&nbsp;&nbsp;- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior <br>
+&nbsp;&nbsp;&nbsp;- The existence of high-performing ESG programs is **a proxy for good management** <br>
 
 <p align="center">
   <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
@@ -94,19 +94,21 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 -- BQL is written in Excel in Bloomberg terminals to download the data in batches <br>
 -- BQL Example: <br>
 `‘A US = B4& "EQUITY" = BDH(B3, $C$1, A3, A3, "Currency=USD", "Period=FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
-&nbsp;&nbsp; - **B3** column represents the ticker symbol <br>
-&nbsp;&nbsp; - **$C$1** represents the variable name <br>
-&nbsp;&nbsp; - **A3** represents the fiscal year <br>
+&nbsp;&nbsp;&nbsp;&nbsp;> **B3** represents the ticker symbol <br>
+&nbsp;&nbsp;&nbsp;&nbsp;> **C1** represents the variable name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;> **A3** represents the fiscal year <br>
 
 #### Variables 
 
 <p align="center">
-  <img src="pics/variables.png" alt="Variables" width="300"/>
+  <img src="pics/variables.png" alt="Variables" width="600"/>
 </p>
 <br>
 
 ### Data Transformation
-
+-- The dataset is in a firm-year format. Mean values of the ESG scores and financial ratios were taken, when analyzing the relationship between the financial performance and ESG of the firms. Nature log was applied to total asset observations to mitigate the potential issues related to measurement scaling <br>
+-- All ESG scores are expressed in a range from 0.1 for companies that disclose a minimum amount of governance data to 100 for those that disclose every data point collected by Bloomberg. Companies that do not disclose anything will show a value of 0 <br>
+-- Our credit scores are based on the Bloomberg default risk model. The scores are in the format of a combination of number and letter format. For example, 1-year default risk IG2 which represents an estimated 1-year default probability between 0.002%-0.004%. For the purpose of this 
 
 
 <a id ='results'></a>
