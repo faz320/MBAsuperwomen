@@ -12,10 +12,10 @@
 ## **A. INTRODUCTION**
 ### ESG Background
 
-**ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company
--- **Environmental** - how a company performs as a steward of nature <br>
--- **Social** - examines how it manages relationships with employees, suppliers, customers, and the communities where it operates <br>
--- **Governance** - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
+**ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company <br>
+-- **Environmental:** how a company performs as a steward of nature <br>
+-- **Social:** examines how it manages relationships with employees, suppliers, customers, and the communities where it operates <br>
+-- **Governance:** deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
 
 <p align="center">
   <img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
@@ -27,12 +27,13 @@
 **Paris Agreement in 2015**
 
 > After the Paris agreement, firms most exposed to climate transition risk also saw their ratings deteriorate whereas other comparable firms did not... These results have policy implications for corporate disclosures and strategies around climate change and the treatment of the climate-related transition risk faced by the financial sector (European Central Bank).<br>
-<br>
+
+
 > Over 100 companies have signed The Climate Pledge... It's part of a growing trend of corporations announcing climate targets in line with or ahead of those established by the Paris Agreement. In 2021 alone, 75 new companies have joined The Climate Pledge - bringing the total to 108 (Perillon).<br>
 
 ### McKinsey - New Perspective on ESG (February 2020)
 
--- **Increasing public and company _perception_** and pressure that ESG programs create short-term and long-term value 
+-- **Increasing public and company _perception_** and pressure that ESG programs create short-term and long-term value <br>
 ---- 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value)
 
 <p align="center">
