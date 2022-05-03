@@ -5,8 +5,8 @@
 <br>
 
 # ESG Impact on Financial Performance
-  - Introduction 
-  - Methodology
+ - Introduction 
+ - Methodology
   - Results
 
 ## **A. INTRODUCTION**
@@ -56,7 +56,7 @@ _Over 100 companies have signed The Climate Pledge... It's part of a growing tre
 
 ### Research Question
 
-#### How do ESG ratings impact companies’ financial performance and credit rating?
+**How do ESG ratings impact companies’ financial performance and credit rating?**
   - We will study and aggregate three individual ESG categories (Environmental, Social and Governance)
   - We will then examine their impact on corporate financial performance including profitability and financial risk, as well as credit ratings
 
