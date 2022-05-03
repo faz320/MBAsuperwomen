@@ -10,7 +10,7 @@ II.&nbsp;&nbsp;<a href='#methodology'>Methodology</a> <br>
 III.&nbsp;<a href='#results'>Results</a> <br>
 
 <a id ='introduction'></a>
-## **I. INTRODUCTION**
+## **I.&nbsp;&nbsp;&nbsp;INTRODUCTION**
 ### ESG Background
 
 **ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company <br>
@@ -85,11 +85,11 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 -- ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
 
 <a id ='methodology'></a>
-## **II. METHODOLOGY**
+## **II.&nbsp;&nbsp;METHODOLOGY**
 
 
 <a id ='results'></a>
-## **III. RESULTS**
+## **III.&nbsp;RESULTS**
 
 
 
