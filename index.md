@@ -5,11 +5,11 @@
 <br>
 
 # ESG Impact on Financial Performance
-&nbsp;- Introduction <br>
-&nbsp;- Methodology <br>
-&nbsp;- Results
+I. Introduction <br>
+II. Methodology <br>
+III. Results
 
-## **A. INTRODUCTION**
+## **I. INTRODUCTION**
 ### ESG Background
 
 **ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company <br>
@@ -80,9 +80,9 @@
 -- ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
 
 
-## **B. METHODOLOGY**
+## **II. METHODOLOGY**
 
-## **C. RESULTS**
+## **III. RESULTS**
 
 
 
