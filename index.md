@@ -1,5 +1,7 @@
 # MBA Superwomen
-<img src="pics/superwomen.png" alt="superwomen" width="400"/>
+<p align="center">
+  <img src="pics/superwomen.png" alt="superwomen" width="400"/>
+</p>
 <br>
 _You will never know who's who!_
 <br><br>
