@@ -21,7 +21,7 @@ III. <a href='#results'>Results</a> <br>
 <p align="center">
   <img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
 </p>
-<br><br>
+<br>
 
 **The Financial Times defines ESG as:**
 > “A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”
@@ -40,7 +40,7 @@ III. <a href='#results'>Results</a> <br>
 <p align="center">
   <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
 </p>
-<br><br>
+<br>
 
 -- 58% of respondents say **the current political environment has _increased_** the importance of ESG programs <br>
 -- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior <br>
@@ -49,14 +49,14 @@ III. <a href='#results'>Results</a> <br>
 <p align="center">
   <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
 </p>
-<br><br>
+<br>
 
 -- **Compliance** was cited as **the most important** aspect of ESG-related activities, rather than changing business processes to incorporate good ESG practices <br>
 
 <p align="center">
   <img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="600"/>
 </p>
-<br><br>
+<br>
 
 ### Research Question
 
