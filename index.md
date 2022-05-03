@@ -1,14 +1,27 @@
-# MBA Superwomen 
+# MBA Superwomen
 <img src="pics/superwomen.png" alt="superwomen" width="500"/>
 <br>
 _You will never know who's who!_
-<br><br><br>
+<br><br>
+
+# ESG Impact on Financial Performance
+- Introduction 
+- Methodology
+- Results
 
 ## **A. INTRODUCTION**
 ### a. ESG Background
+
+**ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company
+- **Environmental** - how a company performs as a steward of nature
+- **Social** - examine how it manages relationships with employees, suppliers, customers, and the communities where it operates
+- **Governance** - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
+
+The Financial Times defines ESG as: 
+_“A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”_
+
+
 ### b. Research Question
-
-
 ### c. Literature Review
 ### d. Hypotheses
 
@@ -17,9 +30,6 @@ _You will never know who's who!_
 
 
 ## **B. METHODOLOGY**
-
-
-
 
 ## **C. RESULTS**
 
