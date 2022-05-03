@@ -18,9 +18,9 @@ _You will never know who's who!_
 - **Governance** - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
 
 The Financial Times defines ESG as: 
-_“A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”_
+> _“A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”_
 
-<img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="300"/>
+<img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
 <br>
 
 #### McKinsey - New Perspective on ESG
@@ -28,20 +28,20 @@ _“A generic term used in capital markets and used by investors to evaluate cor
 Increasing pressure and public/company perception that ESG programs create short-term and long-term value 
 - 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value)
 
-<img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="300"/>
+<img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
 <br>
 
 58% of respondents say the current political environment has increased the importance of ESG programs to meet stakeholder expectations
 - Strengthening the organization’s competitive position and meeting society’s expectations for good corporate behavior
 - The existence of high-performing ESG programs is a proxy for good management, in line with the 2009 finding
 
-<img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="300"/>
+<img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
 <br>
 
 Compliance was cited as the most important aspect of ESG-related activities. Respondents are less likely now than in the previous survey to identify changing business processes to incorporate good ESG practices as most important
 - Paris agreement in 2015
 
-<img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="300"/>
+<img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="600"/>
 <br>
 
 ### b. Research Question
@@ -55,9 +55,9 @@ Compliance was cited as the most important aspect of ESG-related activities. Res
 
 ### d. Hypotheses
 
-- ESG has a positive impact on corporate profitability
-- Among different ESG factors, governance category has the most significant impact on corporate finance performance
-- ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings
+1. ESG has a positive impact on corporate profitability
+2. Among different ESG factors, governance category has the most significant impact on corporate finance performance
+3. ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings
 
 
 
