@@ -1,27 +1,27 @@
-## MBA Superwomen 
-
-<img src="superwomen.jpg" alt="superwomen" width="300"/>
+# MBA Superwomen 
+<img src="pics/superwomen.png" alt="superwomen" width="500"/>
 <br>
-You will never know who's who!
+_You will never know who's who!_
 <br><br><br>
 
-### **A. INTRODUCTION**
-
-#### a. ESG Background
-#### b. Research Question
-#### c. Literature Review
-#### d. Hypotheses
+## **A. INTRODUCTION**
+### a. ESG Background
+### b. Research Question
 
 
-
-
-
-### **B. METHODOLOGY**
+### c. Literature Review
+### d. Hypotheses
 
 
 
 
-### **C. RESULTS**
+
+## **B. METHODOLOGY**
+
+
+
+
+## **C. RESULTS**
 
 
 
