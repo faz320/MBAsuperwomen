@@ -86,6 +86,27 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 
 <a id ='methodology'></a>
 ## **II.&nbsp;&nbsp;METHODOLOGY**
+### Data Collection 
+#### Data Source
+-- All data including financial ratios, ESG disclosure scores and default risk from 2011 to 2021 of S&P 500 firms is retrieved from Bloomberg Terminals located in the Rauch Business Center at Lehigh University <br>
+
+#### Bloomberg Query Language
+-- BQL is written in Excel in Bloomberg terminals to download the data in batches <br>
+-- BQL Example: <br>
+`‘A US = B4& "EQUITY" = BDH(B3, $C$1, A3, A3, "Currency=USD", "Period=FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
+&nbsp;&nbsp; - **B3** column represents the ticker symbol <br>
+&nbsp;&nbsp; - **$C$1** represents the variable name <br>
+&nbsp;&nbsp; - **A3** represents the fiscal year <br>
+
+#### Variables 
+
+<p align="center">
+  <img src="pics/variables.png" alt="Variables" width="300"/>
+</p>
+<br>
+
+### Data Transformation
+
 
 
 <a id ='results'></a>
