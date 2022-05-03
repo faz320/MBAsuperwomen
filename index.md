@@ -65,8 +65,14 @@
 -- To examine the relationship between ESG factors and corporate financial performance, including profitability and financial risk
 -- To provide the rationale for ESG-integrated investment management strategies
 
+#### Data Used
+-- S&P Capital IQ-Compustat database; from 1991 to 2013 based on 4708 firms in all industries, and combined with MSCI ESG dataset
+
 #### Findings 
 -- Positive effect of ESG factors on corporate profitability, and the effect was more pronounced for larger firms 
+-- Corporate governance (G) has the most significant impact, particularly for firms with weak governance
+-- Social factor (S) has the most significant impact on credit rating, while the environmental score surprisingly has a negative effect 
+-- While the ESG factors seem to have largely positive impact on financial performance based on approximately 2200 studies, the research in this area is extensive, accelerating, and still inconclusive depending on data sample, sample period, empirical methods and different industries or countries
 
 
 ### Hypotheses
