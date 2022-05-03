@@ -1,7 +1,5 @@
 # MBA Superwomen
-<p align="center">
-  <img src="pics/superwomen.png" alt="superwomen" width="400"/>
-</p>
+<img src="pics/superwomen.png" alt="superwomen" width="400"/>
 <br>
 _You will never know who's who!_
 <br><br>
@@ -20,7 +18,7 @@ _You will never know who's who!_
 - `Governance` - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
 
 <p align="center">
-<img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
+  <img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
 </p>
 <br><br>
 
@@ -39,7 +37,7 @@ _You will never know who's who!_
   - 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value)
 
 <p align="center">
-<img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
+  <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
 </p>
 <br><br>
 
@@ -49,14 +47,14 @@ _You will never know who's who!_
   - The existence of high-performing ESG programs is a proxy for good management, in line with the 2009 finding
 
 <p align="center">
-<img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
+  <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
 </p>
 <br><br>
 
 - Compliance was cited as the most important aspect of ESG-related activities. Respondents are less likely now than in the previous survey to identify changing business processes to incorporate good ESG practices as most important
 
 <p align="center">
-<img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="600"/>
+  <img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="600"/>
 </p>
 <br><br>
 
