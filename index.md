@@ -6,15 +6,17 @@
 
 # ESG Impact on Financial Performance
  -- Introduction 
- -Methodology
-  - Results
+ 
+ -- Methodology
+ 
+ -- Results
 
 ## **A. INTRODUCTION**
 ### ESG Background
 
 **ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company
-  - **Environmental** - how a company performs as a steward of nature
-  - **Social** - examines how it manages relationships with employees, suppliers, customers, and the communities where it operates
+** **Environmental** - how a company performs as a steward of nature
+** **Social** - examines how it manages relationships with employees, suppliers, customers, and the communities where it operates
   - **Governance** - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
 
 <p align="center">
