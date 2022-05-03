@@ -33,21 +33,21 @@
 ### McKinsey - New Perspective on ESG (February 2020)
 
 -- **Increasing public and company _perception_** and pressure that ESG programs create short-term and long-term value <br>
--- 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value)
+-- 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value) <br>
 
 <p align="center">
   <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
 </p>
 
--- 58% of respondents say **the current political environment has _increased_** the importance of ESG programs
--- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior
--- The existence of high-performing ESG programs is **a proxy for good management**
+-- 58% of respondents say **the current political environment has _increased_** the importance of ESG programs <br>
+-- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior <br>
+-- The existence of high-performing ESG programs is **a proxy for good management** <br>
 
 <p align="center">
   <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
 </p>
 
--- **Compliance** was cited as **the most important** aspect of ESG-related activities, rather than changing business processes to incorporate good ESG practices
+-- **Compliance** was cited as **the most important** aspect of ESG-related activities, rather than changing business processes to incorporate good ESG practices <br>
 
 <p align="center">
   <img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="600"/>
@@ -55,31 +55,29 @@
 
 ### Research Question
 
-**How do ESG ratings impact companies’ financial performance and credit rating?**
--- We will study and aggregate three individual ESG categories (Environmental, Social and Governance)
--- We will then examine their impact on corporate financial performance including profitability and financial risk, as well as credit ratings
+**How do ESG ratings impact companies’ financial performance and credit rating?** <br>
+-- We will study and aggregate three individual ESG categories (Environmental, Social and Governance) <br>
+-- We will then examine their impact on corporate financial performance including profitability and financial risk, as well as credit ratings <br>
 
 ### Literature Review (Western University 2021)
 
 #### Objective
--- To examine the relationship between ESG factors and corporate financial performance, including profitability and financial risk
--- To provide the rationale for ESG-integrated investment management strategies
+-- To examine the relationship between ESG factors and corporate financial performance, including profitability and financial risk <br>
+-- To provide the rationale for ESG-integrated investment management strategies <br>
 
 #### Data Used
--- S&P Capital IQ-Compustat database; from 1991 to 2013 based on 4708 firms in all industries, and combined with MSCI ESG dataset
+-- S&P Capital IQ-Compustat database; from 1991 to 2013 based on 4708 firms in all industries, and combined with MSCI ESG dataset <br>
 
 #### Findings 
--- Positive effect of ESG factors on corporate profitability, and the effect was more pronounced for larger firms 
--- Corporate governance (G) has the most significant impact, particularly for firms with weak governance
--- Social factor (S) has the most significant impact on credit rating, while the environmental score surprisingly has a negative effect 
--- While the ESG factors seem to have largely positive impact on financial performance based on approximately 2200 studies, the research in this area is extensive, accelerating, and still inconclusive depending on data sample, sample period, empirical methods and different industries or countries
-
+-- Positive effect of ESG factors on corporate profitability, and the effect was more pronounced for larger firms <br>
+-- Corporate governance (G) has the most significant impact, particularly for firms with weak governance <br>
+-- Social factor (S) has the most significant impact on credit rating, while the environmental score surprisingly has a negative effect <br>
+-- While the ESG factors seem to have largely positive impact on financial performance based on approximately 2200 studies, the research in this area is extensive, accelerating, and still inconclusive depending on data sample, sample period, empirical methods and different industries or countries <br>
 
 ### Hypotheses
-
--- 1. ESG has a positive impact on corporate profitability
--- 2. Among different ESG factors, governance category has the most significant impact on corporate finance performance
--- 3. ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings
+-- ESG has a positive impact on corporate profitability <br>
+-- Among different ESG factors, governance category has the most significant impact on corporate finance performance <br>
+-- ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
 
 
 ## **B. METHODOLOGY**
