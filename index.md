@@ -19,7 +19,9 @@ _You will never know who's who!_
 - `Social` - examine how it manages relationships with employees, suppliers, customers, and the communities where it operates
 - `Governance` - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
 
+<p align="center">
 <img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
+</p>
 <br><br>
 
 **The Financial Times defines ESG as:**
@@ -36,7 +38,9 @@ _You will never know who's who!_
 <br>
   - 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value)
 
+<p align="center">
 <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
+</p>
 <br><br>
 
 - 58% of respondents say the current political environment has increased the importance of ESG programs to meet stakeholder expectations
@@ -44,12 +48,16 @@ _You will never know who's who!_
   - Strengthening the organization’s competitive position and meeting society’s expectations for good corporate behavior
   - The existence of high-performing ESG programs is a proxy for good management, in line with the 2009 finding
 
+<p align="center">
 <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
+</p>
 <br><br>
 
 - Compliance was cited as the most important aspect of ESG-related activities. Respondents are less likely now than in the previous survey to identify changing business processes to incorporate good ESG practices as most important
 
+<p align="center">
 <img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="600"/>
+</p>
 <br><br>
 
 ### b. Research Question
