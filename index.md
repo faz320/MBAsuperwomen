@@ -1,8 +1,7 @@
-# MBA Superwomen
 <img src="pics/superwomen.png" alt="superwomen" width="400"/>
 <br>
-_You will never know who's who!_
-<br><br>
+**_You will never know who's who!_**
+<br>
 
 # ESG Impact on Financial Performance
 - Introduction 
@@ -10,24 +9,23 @@ _You will never know who's who!_
 - Results
 
 ## **A. INTRODUCTION**
-### a. ESG Background
+### ESG Background
 
 **ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company
-- `Environmental` - how a company performs as a steward of nature
-- `Social` - examine how it manages relationships with employees, suppliers, customers, and the communities where it operates
-- `Governance` - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
+- **Environmental** - how a company performs as a steward of nature
+- **Social** - examines how it manages relationships with employees, suppliers, customers, and the communities where it operates
+- **Governance** - deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
 
 <p align="center">
   <img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
 </p>
-<br><br>
 
 **The Financial Times defines ESG as:**
-> “A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”
+>> “A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”
 
 **Paris Agreement in 2015**
 > After the Paris agreement, firms most exposed to climate transition risk also saw their ratings deteriorate whereas other comparable firms did not... These results have policy implications for corporate disclosures and strategies around climate change and the treatment of the climate-related transition risk faced by the financial sector (European Central Bank).
-
+<br>
 > Over 100 companies have signed The Climate Pledge... It's part of a growing trend of corporations announcing climate targets in line with or ahead of those established by the Paris Agreement. In 2021 alone, 75 new companies have joined The Climate Pledge - bringing the total to 108 (Perillon).
 
 ### McKinsey - New Perspective on ESG
