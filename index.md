@@ -5,20 +5,14 @@
 <br>
 
 # ESG Impact on Financial Performance
-&nbsp;- Introductionnn <br>
-&nbsp; * Introduction <br>
-&ensp; - Introduction <br>
-&emsp; - Introduction <br>
-:    - Introduction <br>
-
- -- Methodology <br>
- -- Results
+&nbsp;- Introduction <br>
+&nbsp;- Methodology <br>
+&nbsp;- Results
 
 ## **A. INTRODUCTION**
 ### ESG Background
 
 **ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company <br>
-<br>
 -- **Environmental:** how a company performs as a steward of nature <br>
 -- **Social:** examines how it manages relationships with employees, suppliers, customers, and the communities where it operates <br>
 -- **Governance:** deals with a company’s leadership, executive pay, audits, internal controls and shareholder rights
@@ -44,10 +38,9 @@
   <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
 </p>
 
-  - 58% of respondents say **the current political environment has _increased_** the importance of ESG programs
-<br>
-    - Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior
-    - The existence of high-performing ESG programs is **a proxy for good management**
+-- 58% of respondents say **the current political environment has _increased_** the importance of ESG programs
+   - Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior
+   - The existence of high-performing ESG programs is **a proxy for good management**
 
 <p align="center">
   <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
