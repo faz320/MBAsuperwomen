@@ -5,7 +5,7 @@
 <br>
 
 # ESG Impact on Financial Performance
- -- Introduction <br>
+&nbsp;- Introduction <br>
  -- Methodology <br>
  -- Results
 
