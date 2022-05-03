@@ -64,7 +64,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 -- We will study and aggregate three individual ESG categories (Environmental, Social and Governance) <br>
 -- We will then examine their impact on corporate financial performance including profitability and financial risk, as well as credit ratings <br>
 
-### Literature Review (Western University 2021)
+### <a href="https://www.mdpi.com/2071-1050/13/7/3746/htm">Literature Review (Western University 2021)</a>
 
 #### Objective
 -- To examine the relationship between ESG factors and corporate financial performance, including profitability and financial risk <br>
