@@ -5,8 +5,8 @@
 <br>
 
 # ESG Impact on Financial Performance
-I. <a href='#introduction'>Introduction</a> <br>
-II. <a href='#methodology'>Methodology</a> <br>
+I.   <a href='#introduction'>Introduction</a> <br>
+II.  <a href='#methodology'>Methodology</a> <br>
 III. <a href='#results'>Results</a> <br>
 
 <a id ='introduction'></a>
