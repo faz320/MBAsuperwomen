@@ -1,8 +1,9 @@
 ## MBA Superwomen 
 
-You can use the [editor on GitHub](https://github.com/faz320/MBAsuperwomen.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img src="pics/batgirl-wonderwoman-supergirl-dc-comics.jpg" alt="julio" width="300"/>
+<br>
+You will never know who's who!
+<br><br><br>
 
 ### A. INTRODUCTION
 
