@@ -1,6 +1,6 @@
 ## MBA Superwomen 
 
-<img src="pics/batgirl-wonderwoman-supergirl-dc-comics.jpg" alt="julio" width="300"/>
+<img src="pics/batgirl-wonderwoman-supergirl-dc-comics.jpg" alt="superwomen" width="300"/>
 <br>
 You will never know who's who!
 <br><br><br>
