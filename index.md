@@ -32,7 +32,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 <br>
 > Over 100 companies have signed The Climate Pledge... It's part of a growing trend of corporations announcing climate targets in line with or ahead of those established by the Paris Agreement. In 2021 alone, 75 new companies have joined The Climate Pledge - bringing the total to 108 (Perillon).<br>
 
-### McKinsey - New Perspective on ESG (February 2020)
+### <a href="https://www.mckinsey.com/business-functions/sustainability/how-we-help-clients">McKinsey - New Perspective on ESG (February 2020)</a>
 
 -- **Increasing public and company _perception_** and pressure that ESG programs create short-term and long-term value <br>
 -- 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value) <br>
