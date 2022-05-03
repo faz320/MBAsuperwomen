@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## MBA Superwomen 
 
 You can use the [editor on GitHub](https://github.com/faz320/MBAsuperwomen.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
