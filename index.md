@@ -21,17 +21,16 @@
 </p>
 
 **The Financial Times defines ESG as:**
->> “A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”
+> “A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”
 
 **Paris Agreement in 2015**
-> After the Paris agreement, firms most exposed to climate transition risk also saw their ratings deteriorate whereas other comparable firms did not... These results have policy implications for corporate disclosures and strategies around climate change and the treatment of the climate-related transition risk faced by the financial sector (European Central Bank).
-<br>
-> Over 100 companies have signed The Climate Pledge... It's part of a growing trend of corporations announcing climate targets in line with or ahead of those established by the Paris Agreement. In 2021 alone, 75 new companies have joined The Climate Pledge - bringing the total to 108 (Perillon).
+_After the Paris agreement, firms most exposed to climate transition risk also saw their ratings deteriorate whereas other comparable firms did not... These results have policy implications for corporate disclosures and strategies around climate change and the treatment of the climate-related transition risk faced by the financial sector (European Central Bank)._
 
-### McKinsey - New Perspective on ESG
+_Over 100 companies have signed The Climate Pledge... It's part of a growing trend of corporations announcing climate targets in line with or ahead of those established by the Paris Agreement. In 2021 alone, 75 new companies have joined The Climate Pledge - bringing the total to 108 (Perillon)._
 
-- Increasing pressure and public/company perception that ESG programs create short-term and long-term value 
-<br>
+### McKinsey - New Perspective on ESG (February 2020)
+
+-Increasing pressure and public/company perception that ESG programs create short-term and long-term value 
   - 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value)
 
 <p align="center">
