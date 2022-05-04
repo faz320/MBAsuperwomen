@@ -97,12 +97,12 @@ All data including financial ratios, ESG disclosure scores and default risk from
 &nbsp;&nbsp;&nbsp;&nbsp;- **A3** represents the fiscal year <br>
 
 -- Obtain credit rate data <br>
-`- Download credit rate: = BDH(E1, D3, "1/1/2011", "12/31/2021", "cols = 2; rows = 2267")
-&nbsp;&nbsp;&nbsp;&nbsp;- **E1** represents ticker symbol
-&nbsp;&nbsp;&nbsp;&nbsp;- **D3** represents RN365 (credit rating name)
--- The other parameters will change according to the numbers of real data downloaded
--- Get the average number of rating numbers in each year for every companies
--- Keep the csv file and load into the jupyter lab to do the rest of data cleaning
+`- Download credit rate: = BDH(E1, D3, "1/1/2011", "12/31/2021", "cols = 2; rows = 2267")` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- **E1** represents ticker symbol  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- **D3** represents RN365 (credit rating name)  <br>
+-- The other parameters will change according to the numbers of real data downloaded  <br>
+-- Get the average number of rating numbers in each year for every companies  <br>
+-- Keep the csv file and load into the jupyter lab to do the rest of data cleaning  <br>
 
 #### Variables 
 <br>
@@ -163,10 +163,10 @@ All data including financial ratios, ESG disclosure scores and default risk from
 </p>
 
 ### Correlation Analysis
-**Figure 4** below shows the correlation analysis using the average of 10-year observations of 504 firms dataset. Overall, there is **no strong correlation** between the variables of interest. 
--- First, all of the selected ESG disclosure scores appear to have **very weak negative correlation** to firms’ profitability (from -0.09 to -0.032)
--- Second, **social disclosure scores** appear to have the **strongest correlation** to the firms’ profitability compared with others
--- Third, the control variable (total assets) seems to have a moderate positive correlation to the profitability variable
+**Figure 4** below shows the correlation analysis using the average of 10-year observations of 504 firms dataset. Overall, there is **no strong correlation** between the variables of interest. <br>
+-- First, all of the selected ESG disclosure scores appear to have **very weak negative correlation** to firms’ profitability (from -0.09 to -0.032) <br>
+-- Second, **social disclosure scores** appear to have the **strongest correlation** to the firms’ profitability compared with others <br>
+-- Third, the control variable (total assets) seems to have a moderate positive correlation to the profitability variable <br>
 
 <p align="center">
   <img src="pics/figure 4 - heatmap.png" alt="Figure 4" width="800"/>
@@ -176,7 +176,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 #### ESG and Profitability
 **Table 4** below shows the result of regression analysis using profitability as a dependent variable and the average of 10-year observations of firms as the input data. Overall, the adjusted **R2 values are low**, ranging between 0.12 to 0.13, but consistent for all the four models, potentially due to the limited number of independent variables selecte. 
 
-Three out of four ESG related scores were **found significant** in the regression models - overall ESG, environmental and government disclosure scores (p<0.05). In contrast, the social disclosure scores did not have a significant correlation with corporate financial performance. 
+Three out of four ESG related scores were **found significant** in the regression models - the overall ESG, environmental and government disclosure scores (p<0.05). In contrast, the social disclosure scores did not have a significant correlation with corporate financial performance. 
 
 Based on the result, we **accept hypothesis 1** that ESG disclosure has a significantly positive impact on corporate profitability. In terms of the size of the impact, governance disclosure scores were found to be the most impactful compared with the other two. For 1 point increase in governance disclosure score, the firm’s ROA will increase by 0.17. Therefore, we also **accept hypothesis 2**. 
 
@@ -207,7 +207,7 @@ Interestingly, the governance factors have a slightly negative correlation to co
 <p align="center">
   <img src="pics/table 6.png" alt="Table 6" width="800"/>
 </p>
-<br><br><br>
+<br><br>
 
 ## THE END
 ### Prof Bowen Back in January
