@@ -21,7 +21,6 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 <p align="center">
   <img src="pics/ESG Picture 1.png" alt="ESG Pic 1" width="500"/>
 </p>
-<br>
 
 **The Financial Times defines ESG as:**
 > “A generic term used in capital markets and used by investors to evaluate corporate behavior and to determine the future financial performance of companies… [ESG] is a subset of non-financial performance indicators which include sustainable, ethical and corporate governance issues such as managing a company’s carbon footprint and ensuring there are systems in place to ensure accountability.”
@@ -40,7 +39,6 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 <p align="center">
   <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
 </p>
-<br>
 
 -- 58% of respondents say **the current political environment has _increased_** the importance of ESG programs <br>
 -- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior <br>
@@ -49,14 +47,12 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 <p align="center">
   <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
 </p>
-<br>
 
 -- **Compliance** was cited as **the most important** aspect of ESG-related activities, rather than changing business processes to incorporate good ESG practices <br>
 
 <p align="center">
   <img src="pics/ESG Picture 4.png" alt="ESG Pic 4" width="600"/>
 </p>
-<br>
 
 ### Research Question
 #### How do ESG ratings impact companies’ financial performance and credit rating?** <br>
@@ -104,18 +100,15 @@ All data including financial ratios, ESG disclosure scores and default risk from
 <p align="center">
   <img src="pics/variables.png" alt="Variables" width="600"/>
 </p>
-<br>
 <p align="center">
   <img src="pics/figure 1 - tesla v2.png" alt="Figure 1" width="800"/>
 </p>
-<br>
 
 #### Dataset Summary
 <br>
 <p align="center">
   <img src="pics/table 1 - summary v2.png" alt="Table 1" width="800"/>
 </p>
-<br>
 
 ### Data Transformation and Cleaning
 -- The dataset is in a firm-year format. **Mean values of the ESG scores** and **financial ratios** were used when analyzing the relationship between the financial performance and ESG rating of the firms <br>
