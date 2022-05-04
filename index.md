@@ -88,9 +88,9 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 All data including financial ratios, ESG disclosure scores and default risk from **2011 to 2021** of **S&P 500 firms** were retrieved from **Bloomberg Terminals** located in the Rauch Business Center at Lehigh University <br>
 
 #### Bloomberg Query Language
--- BQL is written in Excel in Bloomberg terminals to download the data in batches <br>
+-- BDH is written in Excel in Bloomberg terminals to download the data in batches <br>
 -- SPX Index retrieves information for S&P 500 firms <br>
--- BQL Example: <br>
+-- BDH Example: <br>
 `‘A US = B4& "EQUITY" = BDH(B3, $C$1, A3, A3, "Currency = USD", "Period = FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;- **B3 and B4** represent the ticker symbol <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- **C1** represents the variable name <br>
