@@ -145,8 +145,8 @@ All data including financial ratios, ESG disclosure scores and default risk from
   <img src="pics/table 3 - summary 10 year v2.png" alt="Table 3" width="800"/>
 </p>
 
-**Figure 3** shows the change of different disclosure scores across 2011 to 2021 of all firms combined. Overall, the means of all disclosure scores increased from 2011 to 2020, with the biggest increase in environmental disclosure scores especially after 2015 when the Paris Agreement was signed by 196 countries in the world. However, all disclosure scores took a downward turn in 2021, which could relate to Covid-19 pandemic. 
 
+**Figure 3** below shows the change of different disclosure scores across 2011 to 2021 of all firms combined. Overall, the means of all disclosure scores increased from 2011 to 2020, with the biggest increase in environmental disclosure scores especially after 2015 when the Paris Agreement was signed by 196 countries in the world. However, all disclosure scores took a downward turn in 2021, which could relate to Covid-19 pandemic. 
 <p align="center">
   <img src="pics/figure 3 - score changes.png" alt="Figure 3" width="800"/>
 </p>
