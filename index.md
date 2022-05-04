@@ -32,7 +32,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 <br>
 > Over 100 companies have signed The Climate Pledge... It's part of a growing trend of corporations announcing climate targets in line with or ahead of those established by the Paris Agreement. In 2021 alone, 75 new companies have joined The Climate Pledge - bringing the total to 108 (Perillon).<br>
 
-### <a href="https://www.mckinsey.com/business-functions/sustainability/how-we-help-clients">McKinsey - New Perspective on ESG (February 2020)</a>
+### <a href="https://www.mckinsey.com/business-functions/sustainability/our-insights/the-esg-premium-new-perspectives-on-value-and-performance">McKinsey - New Perspective on ESG (February 2020)</a>
 
 -- **Increasing public and company _perception_** and pressure that ESG programs create short-term and long-term value <br>
 -- **10%-15% median premium** to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value) <br>
@@ -92,9 +92,17 @@ All data including financial ratios, ESG disclosure scores and default risk from
 -- SPX Index retrieves information for S&P 500 firms <br>
 -- BQL Example: <br>
 `‘A US = B4& "EQUITY" = BDH(B3, $C$1, A3, A3, "Currency = USD", "Period = FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;- **B3** represents the ticker symbol <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- **B3 and B4** represent the ticker symbol <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- **C1** represents the variable name <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- **A3** represents the fiscal year <br>
+
+-- Obtain credit rate data <br>
+`- Download credit rate: = BDH(E1, D3, "1/1/2011", "12/31/2021", "cols = 2; rows = 2267")
+&nbsp;&nbsp;&nbsp;&nbsp;- **E1** represents ticker symbol
+&nbsp;&nbsp;&nbsp;&nbsp;- **D3** represents RN365 (credit rating name)
+-- The other parameters will change according to the numbers of real data downloaded
+-- Get the average number of rating numbers in each year for every companies
+-- Keep the csv file and load into the jupyter lab to do the rest of data cleaning
 
 #### Variables 
 <br>
@@ -122,6 +130,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 
 -- The credit scores are based on the **Bloomberg default risk model**, expressed in a combination of numbers and letters <br>
 -- 1-year default risk IG2 which represents an estimated 1-year default probability between 0.002%-0.004%. For the purpose of this analysis, the maximum value of the range was assigned to the corresponding risk (i.e., 0.004%) <br>
+-- Bloomberg default risk of a subset of 154 firms were extracted and mean values were taken for each year from 2011-2021 <br>
 
 <p align="center">
   <img src="pics/figure 2 - american airline v2.png" alt="Figure 2" width="800"/>
@@ -131,7 +140,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 
 ### Relationship Analysis
 -- **Visualization:** Correlation heatmap and scatter plots were used to visualize the relationship between different pairs of variables. Boxplots were used to visualize the changes over the years. All figures can be found in later sections <br>
--- **Regression analysis:** 12 multivariate regression models were constructed, 4 regressions for the profitability variable, aka. ROA, across all years. Another 8 regressions were constructed for the profitability variable to compare the effect before and after the Paris Agreement. Nature log was applied to total asset observations to mitigate the potential issues related to measurement scaling. The following are the generalized regression formulas that were used in this analysis <br>
+-- **Regression analysis:** 16 multivariate regression models were constructed, 4 regressions for the profitability variable, aka. ROA, across all years. Another 8 regressions were constructed for the profitability variable to compare the effect before and after the Paris Agreement. 4 regressions with financial risks, aka. Bloomberg default risks. across all years. Nature log was applied to total asset observations to mitigate the potential issues related to measurement scaling. The following are the generalized regression formulas that were used in this analysis <br>
 <br>
 `RETURN_ON_ASSET = ɑ + 𝛽1(ESG_DISCLOSURE_SCORE, SOCIAL_DISCLOSURE_SCORE, GOVNCE_DISCLOSURE_SCORE or ENVIRON_DISCLOSURE_SCORE) + 𝛽2(TOT_DEBT_TO_TOT_EQY) + 𝛽3(CUR_RATIO) + 𝛽4(log(BS_TOT_ASSET) + e` <br>
 <br>
@@ -187,6 +196,17 @@ Therefore, we **accept our hypothesis 3** that there are major differences in te
 <p align="center">
   <img src="pics/table 5.png" alt="Table 5" width="800"/>
 </p>
+
+#### ESG and Financial Risks
+**Table 6** below shows the regression analysis using financial risks as a dependent variable and the average of 10-year observations of a subset of 154 firms dataset as the input data. 
+
+All four ESG related scores were found **significant** in the regression models - the overall ESG, environmental and government disclosure scores (p<0.05). Therefore, we **accept our hypothesis 4** that ESG factors have a significant correlation with corporate credit risks, measured by default risk. 
+
+Interestingly, the governance factors have a slightly negative correlation to corporate credit risks, while the other social factors, environmental factors and overall ESG have slightly positive impacts. 
+
+<p align="center">
+  <img src="pics/table 6.png" alt="Table 6" width="800"/>
+</p>
 <br><br><br>
 
 ## THE END
@@ -199,4 +219,15 @@ Therefore, we **accept our hypothesis 3** that there are major differences in te
 <p align="center">
   <img src="pics/22359c3e7d87baf960e7f72a67cc75f5.gif" alt="Table 5" width="300"/>
 </p>
+
+
+## References
+--Kim,S.;Li,Z.(F.) (2021). Understanding the Impact of ESG Practices in Corporate Finance. Sustainability, 13, 3746. https://doi.org/10.3390/su13073746 <br>
+--Tensie W., Ulrich A., Tracy V. and Casey C. (2021). ESG and Financial Performance: Uncovering the Relationship by Aggregating Evidence from 1,000 Plus Studies Published between 2015 – 2020. <br>
+--McKinsey (2020). The ESG Premium: New Perspectives on Value and Performance. https://www.mckinsey.com/business-functions/sustainability/our-insights/the-esg-premium-new-perspectives-on-value-and-performance <br>
+
+## Appendix: Python Codes
+Notebook
+
+
 
