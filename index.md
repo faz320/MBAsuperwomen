@@ -77,8 +77,8 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 ### Hypotheses
 (1) ESG has a positive impact on corporate profitability <br>
 (2) Among different ESG factors, governance category has the most significant impact on corporate finance performance <br>
-(3) ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
-(4) The Paris Agreement event has a positive impact on financial performance as it relates to ESG ratings <br>
+(3) The Paris Agreement event has a positive impact on financial performance as it relates to ESG ratings <br>
+(4) ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
 
 <a id ='methodology'></a>
 ## **II.&nbsp;&nbsp;METHODOLOGY**
@@ -139,20 +139,24 @@ All data including financial ratios, ESG disclosure scores and default risk from
 <a id ='results'></a>
 ## **III.&nbsp;RESULTS**
 ### Descriptive Statistics
-**Table 3** describes the summary statistics of the variables used to examine the first and second hypotheses. Overall, the size of this sample is 503 firms. For corporate financial performance variables, most of them are accounting based indicators. The firm with medium characteristics in the sample has an ROA of 6.68, Debt over Equity ratio of 508.90, total assets of about $6.65 billion and current ratio of 1.88. In terms of the ESG disclosure scores, the mean sample firm has an environmental disclosure score of 24.74, social score of 22.77, governmental scores of 86.32 and overall ESG score of 44.66. In addition, firms did much better in governmental disclosures compared with environmental and social disclosures. The lowest environmental disclosure is 0, meaning there are firms which didn’t disclose environmental related issues at all. In contrast, some firms scored 100 for governmental disclosure.
+**Table 3** below describes the summary statistics of the variables used to examine the first and second hypotheses. Overall, the size of this sample is 503 firms. Most of the corporate financial performance variables are accounting based indicators. The firm with median characteristics in the sample has an ROA of 6.68, Debt over Equity ratio of 508.90, total assets of about $6.65 billion and current ratio of 1.88. In terms of the ESG disclosure scores, the mean sample firm has an environmental disclosure score of 24.74, social score of 22.77, governmental scores of 86.32 and overall ESG score of 44.66. In addition, **firms did much better in governmental disclosures compared with environmental and social disclosures**. The lowest environmental disclosure is 0, meaning there are firms which didn’t disclose environmental related issues at all. In contrast, some firms scored 100 for governmental disclosure.
 
 <p align="center">
   <img src="pics/table 3 - summary 10 year v2.png" alt="Table 3" width="800"/>
 </p>
 
 
-**Figure 3** below shows the change of different disclosure scores across 2011 to 2021 of all firms combined. Overall, the means of all disclosure scores increased from 2011 to 2020, with the biggest increase in environmental disclosure scores especially after 2015 when the Paris Agreement was signed by 196 countries in the world. However, all disclosure scores took a downward turn in 2021, which could relate to Covid-19 pandemic. 
+**Figure 3** below shows the change of different disclosure scores across 2011 to 2021 of all firms combined. Overall, **the means of all disclosure scores increased from 2011 to 2020**, with the largest increase in the environmental disclosure scores especially after 2015 when the Paris Agreement was signed by 196 countries in the world. However, all disclosure scores took a downward turn in 2021, which could potentially relate to Covid-19 pandemic. 
+
 <p align="center">
   <img src="pics/figure 3 - score changes.png" alt="Figure 3" width="800"/>
 </p>
 
 ### Correlation Analysis
-Figure 4 shows the correlation analysis using the average of 10-Year observations of 504 Firms dataset. Overall, there are no strong correlations between the variables of interest. First, all of the selected ESG disclosure scores appear to have very weak negative correlations to firms’ profitability (from -0.09 to -0.032). Second, social disclosure scores appear to have the strongest correlation to the firms’ profitability compared with others. Third, the control variable (total assets) seems to have a moderate positive correlation to the profitability variable.  
+**Figure 4** below shows the correlation analysis using the average of 10-year observations of 504 firms dataset. Overall, there is **no strong correlation** between the variables of interest. 
+-- First, all of the selected ESG disclosure scores appear to have **very weak negative correlation** to firms’ profitability (from -0.09 to -0.032)
+-- Second, **social disclosure scores** appear to have the **strongest correlation** to the firms’ profitability compared with others
+-- Third, the control variable (total assets) seems to have a moderate positive correlation to the profitability variable
 
 <p align="center">
   <img src="pics/figure 4 - heatmap.png" alt="Figure 4" width="800"/>
@@ -160,20 +164,24 @@ Figure 4 shows the correlation analysis using the average of 10-Year observation
 
 ### Regression Analysis
 #### ESG and Profitability
-Table 4. Shows the results of regression analysis using profitability as a dependent variable and the average of 10-Year observations of firms dataset as the input data. Overall, the adjusted R2 values are low, ranging between 0.12 to 0.13, but consistent for all the four models, probably due to the limited number of selected independent variables. Three out of four ESG related scores were found significant in the regression models, namely, overall ESG disclosure score, environmental disclosure score and government disclosure score (p<0.05). In contrast, social disclosure scores didn’t have a significant correlation with corporate financial performance. 
+**Table 4** below shows the result of regression analysis using profitability as a dependent variable and the average of 10-year observations of firms as the input data. Overall, the adjusted **R2 values are low**, ranging between 0.12 to 0.13, but consistent for all the four models, potentially due to the limited number of independent variables selecte. 
 
-Based on the result, we accept hypothesis 1 that ESG disclosure has a significantly positive impact on corporate profitability. In terms of the size of the impact, governance disclosure scores were found to be the most impactful compared with the other two. For 1 point increase in governance disclosure score, the firm’s ROA will increase by 0.17.  Therefore, we also accept hypothesis 2. 
+Three out of four ESG related scores were **found significant** in the regression models - overall ESG, environmental and government disclosure scores (p<0.05). In contrast, the social disclosure scores did not have a significant correlation with corporate financial performance. 
+
+Based on the result, we **accept hypothesis 1** that ESG disclosure has a significantly positive impact on corporate profitability. In terms of the size of the impact, governance disclosure scores were found to be the most impactful compared with the other two. For 1 point increase in governance disclosure score, the firm’s ROA will increase by 0.17. Therefore, we also **accept hypothesis 2**. 
 
 <p align="center">
   <img src="pics/table 4 - regression .png" alt="Table 4" width="800"/>
 </p>
 
 #### ESG and Profitability Pre- and Post-Paris Agreement
-Table 5 shows the output of 8 regression analysis models using profitability as a dependent variable. The average of observations from 2011 to 2015 of firms dataset were used as input data for the left 4 models and the average of observations from 2016 to 2021 dataset were used  as the input data for the other 4 models. Overall, the adjusted R2 values were much lower for the 4 models using 2011-2015 datasets (0.04-0.06) than those using 2016-2021 dataset (0.2015-0.2042).  The 2011-2015 regression models show similar results to the models using 2010-2021 datasets. ESG disclosure scores, environmental disclosure scores and governance disclosure scores have significant and positive impact on the corporate profitability. Governance factors have the strongest impact, 1 point increase will lead to 0.21117 increase in ROA.  
+**Table 5** below shows the output of 8 regression analysis models using profitability as a dependent variable. The average of observations from 2011 to 2015 of firms dataset were used as input data for the left 4 models and the average of observations from 2016 to 2021 dataset were used  as the input data for the other 4 models. 
 
-However, the 2016-2021 regression models found no significant correlations between any of the ESG disclosure scores and ROA. This finding is consistent with the meta analysis studies conducted by Tensie Whelan, Ulrich Atz, Tracy Van Holt and Casey Clark in 2021. They found that ESG disclosure on its own does not drive financial performance. Specifically, only 26% of studies that focused on disclosure alone found a positive correlation with financial performance compared to 53% for performance-based ESG measures (for example, directly assessing a corporate’s performance on greenhouse gas emission reductions or waste management) <a href="https://www.stern.nyu.edu/sites/default/files/assets/documents/ESG%20Paper%20Aug%202021.pdf">(NYU Stern, ESG and Financial Perfornamce)</a>.
+Overall, the adjusted **R2 values were much lower** for the 4 models using 2011-2015 datasets (0.04-0.06) than those using 2016-2021 dataset (0.2015 - 0.2042). The **2011-2015** regression models show similar results to the models using 2010-2021 datasets. **ESG, environmental and governance disclosure scores have significant and positive impact on the corporate profitability. Governance factors have the strongest impact, 1 point increase will lead to 0.21117 increase in ROA.**
 
-Therefore, we accept our hypothesis 3 that there are major differences in terms of impacts of ESG disclosure on financial performance of companies. 
+However, the **2016-2021** regression models found **no significant correlations between any of the ESG disclosure scores and ROA**. This finding is consistent with the <a href="https://www.stern.nyu.edu/sites/default/files/assets/documents/ESG%20Paper%20Aug%202021.pdf">meta analysis studies</a> conducted by Tensie Whelan, Ulrich Atz, Tracy Van Holt and Casey Clark in 2021. They found that ESG disclosure on its own does not drive financial performance. Specifically, only 26% of studies that focused on disclosure alone found a positive correlation with financial performance compared to 53% for performance-based ESG measures (for example, directly assessing a corporate’s performance on greenhouse gas emission reductions or waste management).
+
+Therefore, we **accept our hypothesis 3** that there are major differences in terms of impacts of ESG disclosure on financial performance of companies. 
 
 <p align="center">
   <img src="pics/table 5.png" alt="Table 5" width="800"/>
