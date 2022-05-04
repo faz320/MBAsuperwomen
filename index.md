@@ -116,7 +116,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 -- The dataset contains many missing values. As shown in Table 3, 17.4% of the current ratio and 11.5% of ESG disclosure, environmental disclosure, social disclosure and governmental disclosure each are missing. The **missing values were ignored** as part of this assessment <br>
 
 <p align="center">
-  <img src="pics/table 3 - missing values v2.png" alt="Table 2" width="400"/>
+  <img src="pics/table 2 - missing values v2.png" alt="Table 2" width="400"/>
 </p>
 
 -- The credit scores are based on the **Bloomberg default risk model**, expressed in a combination of numbers and letters <br>
@@ -142,7 +142,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 **Table 3** describes the summary statistics of the variables used to examine the first and second hypotheses. Overall, the size of this sample is 503 firms. For corporate financial performance variables, most of them are accounting based indicators. The firm with medium characteristics in the sample has an ROA of 6.68, Debt over Equity ratio of 508.90, total assets of about $6.65 billion and current ratio of 1.88. In terms of the ESG disclosure scores, the mean sample firm has an environmental disclosure score of 24.74, social score of 22.77, governmental scores of 86.32 and overall ESG score of 44.66. In addition, firms did much better in governmental disclosures compared with environmental and social disclosures. The lowest environmental disclosure is 0, meaning there are firms which didn’t disclose environmental related issues at all. In contrast, some firms scored 100 for governmental disclosure.
 
 <p align="center">
-  <img src="pics/table 2 - summary 10 year v2.png" alt="Table 3" width="800"/>
+  <img src="pics/table 3 - summary 10 year v2.png" alt="Table 3" width="800"/>
 </p>
 
 **Figure 3** shows the change of different disclosure scores across 2011 to 2021 of all firms combined. Overall, the means of all disclosure scores increased from 2011 to 2020, with the biggest increase in environmental disclosure scores especially after 2015 when the Paris Agreement was signed by 196 countries in the world. However, all disclosure scores took a downward turn in 2021, which could relate to Covid-19 pandemic. 
