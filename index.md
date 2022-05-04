@@ -90,7 +90,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 -- BQL is written in Excel in Bloomberg terminals to download the data in batches <br>
 -- SPX Index retrieves information for S&P 500 firms <br>
 -- BQL Example: <br>
-`‘A US = B4& "EQUITY" =BDH(B3, $C$1, A3, A3, "Currency = USD", "Period = FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
+`‘A US = B4& "EQUITY" = BDH(B3, $C$1, A3, A3, "Currency = USD", "Period = FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;- **B3** represents the ticker symbol <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- **C1** represents the variable name <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- **A3** represents the fiscal year <br>
@@ -169,7 +169,12 @@ Based on the result, we accept hypothesis 1 that ESG disclosure has a significan
 </p>
 
 #### ESG and Profitability Pre- and Post-Paris Agreement
+Table 5 shows the output of 8 regression analysis models using profitability as a dependent variable. The average of observations from 2011 to 2015 of firms dataset were used as input data for the left 4 models and the average of observations from 2016 to 2021 dataset were used  as the input data for the other 4 models. Overall, the adjusted R2 values were much lower for the 4 models using 2011-2015 datasets (0.04-0.06) than those using 2016-2021 dataset (0.2015-0.2042).  The 2011-2015 regression models show similar results to the models using 2010-2021 datasets. ESG disclosure scores, environmental disclosure scores and governance disclosure scores have significant and positive impact on the corporate profitability. Governance factors have the strongest impact, 1 point increase will lead to 0.21117 increase in ROA.  
 
+However, the 2016-2021 regression models found no significant correlations between any of the ESG disclosure scores and ROA. This finding is consistent with the meta analysis studies conducted by Tensie Whelan, Ulrich Atz, Tracy Van Holt and Casey Clark in 2021. They found that ESG disclosure on its own does not drive financial performance. Specifically, only 26% of studies that focused on disclosure alone found a positive correlation with financial performance compared to 53% for performance-based ESG measures (for example, directly assessing a corporate’s performance on greenhouse gas emission reductions or waste management) <a href="https://www.stern.nyu.edu/sites/default/files/assets/documents/ESG%20Paper%20Aug%202021.pdf">(NYU Stern, ESG and Financial Perfornamce)</a>.
 
+Therefore, we accept our hypothesis 3 that there are major differences in terms of impacts of ESG disclosure on financial performance of companies. 
 
-
+<p align="center">
+  <img src="pics/table 5.png" alt="Table 5" width="800"/>
+</p>
