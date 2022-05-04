@@ -222,9 +222,9 @@ Interestingly, the governance factors have a slightly negative correlation to co
 
 
 ## References
---Kim,S.;Li,Z.(F.) (2021). Understanding the Impact of ESG Practices in Corporate Finance. Sustainability, 13, 3746. https://doi.org/10.3390/su13073746 <br>
---Tensie W., Ulrich A., Tracy V. and Casey C. (2021). ESG and Financial Performance: Uncovering the Relationship by Aggregating Evidence from 1,000 Plus Studies Published between 2015 – 2020. <br>
---McKinsey (2020). The ESG Premium: New Perspectives on Value and Performance. https://www.mckinsey.com/business-functions/sustainability/our-insights/the-esg-premium-new-perspectives-on-value-and-performance <br>
+-- Kim,S.;Li,Z.(F.) (2021). Understanding the Impact of ESG Practices in Corporate Finance. Sustainability, 13, 3746. https://doi.org/10.3390/su13073746 <br>
+-- Tensie W., Ulrich A., Tracy V. and Casey C. (2021). ESG and Financial Performance: Uncovering the Relationship by Aggregating Evidence from 1,000 Plus Studies Published between 2015 – 2020. <br>
+-- McKinsey (2020). The ESG Premium: New Perspectives on Value and Performance. https://www.mckinsey.com/business-functions/sustainability/our-insights/the-esg-premium-new-perspectives-on-value-and-performance <br>
 
 ## Appendix: Python Codes
 <a href="analysis_report/analysis_report.md">Analysis Report</a>
