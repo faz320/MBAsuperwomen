@@ -35,7 +35,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 ### <a href="https://www.mckinsey.com/business-functions/sustainability/how-we-help-clients">McKinsey - New Perspective on ESG (February 2020)</a>
 
 -- **Increasing public and company _perception_** and pressure that ESG programs create short-term and long-term value <br>
-&nbsp;&nbsp;&nbsp;- 10%-15% median premium to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value) <br>
+-- **10%-15% median premium** to acquire a company with a positive ESG record over a company with a negative record (regardless of whether executives believe ESG programs have no effect on shareholder value) <br>
 
 <p align="center">
   <img src="pics/ESG Picture 2.png" alt="ESG Pic 2" width="600"/>
@@ -43,8 +43,8 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 <br>
 
 -- 58% of respondents say **the current political environment has _increased_** the importance of ESG programs <br>
-&nbsp;&nbsp;&nbsp;- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior <br>
-&nbsp;&nbsp;&nbsp;- The existence of high-performing ESG programs is **a proxy for good management** <br>
+-- Strengthening the organization’s **competitive position** and meeting **stakeholder expectations** for good corporate behavior <br>
+-- The existence of high-performing ESG programs is **a proxy for good management** <br>
 
 <p align="center">
   <img src="pics/ESG Picture 3.png" alt="ESG Pic 3" width="600"/>
@@ -60,8 +60,8 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 
 ### Research Question
 #### How do ESG ratings impact companies’ financial performance and credit rating?** <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- We will study and aggregate three individual ESG categories (Environmental, Social and Governance) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- We will then examine their impact on corporate financial performance including profitability and financial risk, as well as credit ratings <br>
+-- We will study and aggregate three individual ESG categories (Environmental, Social and Governance) <br>
+-- We will then examine their impact on corporate financial performance including profitability and financial risk, as well as credit ratings <br>
 
 ### <a href="https://www.mdpi.com/2071-1050/13/7/3746/htm">Literature Review (Western University 2021)</a>
 
@@ -76,19 +76,19 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 -- **Positive effect** of ESG factors on corporate profitability, and the effect was more pronounced for larger firms <br>
 -- Corporate governance **(G) has the most significant impact**, particularly for firms with weak governance <br>
 -- Social factor **(S) has the most significant impact on credit rating**, while the environmental score surprisingly has a negative effect <br>
--- While the ESG factors seem to have largely positive impact on financial performance based on approximately 2200 studies, the research in this area is extensive, accelerating, and still inconclusive depending on data sample, sample period, empirical methods and different industries or countries <br>
+-- While the ESG factors seem to have **largely positive impact** on financial performance based on approximately 2200 studies, _**the research in this area is extensive, accelerating, and still inconclusive**_ depending on data sample, sample period, empirical methods and different industries or countries <br>
 
 ### Hypotheses
--- ESG has a positive impact on corporate profitability <br>
--- Among different ESG factors, governance category has the most significant impact on corporate finance performance <br>
--- ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
--- The Paris Agreement event has a positive impact on financial performance as it relates to ESG ratings <br>
+(1) ESG has a positive impact on corporate profitability <br>
+(2) Among different ESG factors, governance category has the most significant impact on corporate finance performance <br>
+(3) ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
+(4) The Paris Agreement event has a positive impact on financial performance as it relates to ESG ratings <br>
 
 <a id ='methodology'></a>
 ## **II.&nbsp;&nbsp;METHODOLOGY**
 ### Data Collection 
 #### Data Source
--- All data including financial ratios, ESG disclosure scores and default risk from **2011 to 2021** of **S&P 500 firms** were retrieved from **Bloomberg Terminals** located in the Rauch Business Center at Lehigh University <br>
+All data including financial ratios, ESG disclosure scores and default risk from **2011 to 2021** of **S&P 500 firms** were retrieved from **Bloomberg Terminals** located in the Rauch Business Center at Lehigh University <br>
 
 #### Bloomberg Query Language
 -- BQL is written in Excel in Bloomberg terminals to download the data in batches <br>
@@ -123,17 +123,16 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 -- The dataset contains many missing values. As shown in Table 3, 17.4% of the current ratio and 11.5% of ESG disclosure, environmental disclosure, social disclosure and governmental disclosure each are missing. The **missing values were ignored** as part of this assessment <br>
 
 <p align="center">
-  <img src="pics/table 3 - missing values v2.png" alt="Table 2" width="800"/>
+  <img src="pics/table 3 - missing values v2.png" alt="Table 2" width="400"/>
 </p>
-<br>
 
 -- The credit scores are based on the **Bloomberg default risk model**, expressed in a combination of numbers and letters <br>
--- For example, 1-year default risk IG2 which represents an estimated 1-year default probability between 0.002%-0.004%. For the purpose of this analysis, the maximum value of the range was assigned to the corresponding risk (i.e., 0.004%) <br>
+-- 1-year default risk IG2 which represents an estimated 1-year default probability between 0.002%-0.004%. For the purpose of this analysis, the maximum value of the range was assigned to the corresponding risk (i.e., 0.004%) <br>
 
 <p align="center">
   <img src="pics/figure 2 - american airline v2.png" alt="Figure 2" width="800"/>
 </p>
-<br>
+
 -- The dataset was also sliced into two sets (2011-2015 and 2016-2021) to compare the findings **pre- and post- Paris Agreement** <br>
 
 ### Relationship Analysis
@@ -141,6 +140,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 -- **Regression analysis:** 12 multivariate regression models were constructed, 4 regressions for the profitability variable, aka. ROA, across all years. Another 8 regressions were constructed for the profitability variable to compare the effect before and after the Paris Agreement. Nature log was applied to total asset observations to mitigate the potential issues related to measurement scaling. The following are the generalized regression formulas that were used in this analysis <br>
 <br>
 `RETURN_ON_ASSET = ɑ + 𝛽1(ESG_DISCLOSURE_SCORE, SOCIAL_DISCLOSURE_SCORE, GOVNCE_DISCLOSURE_SCORE or ENVIRON_DISCLOSURE_SCORE) + 𝛽2(TOT_DEBT_TO_TOT_EQY) + 𝛽3(CUR_RATIO) + 𝛽4(log(BS_TOT_ASSET) + e` <br>
+<br>
 `RN365 = ɑ + 𝛽1(ESG_DISCLOSURE_SCORE, SOCIAL_DISCLOSURE_SCORE, GOVNCE_DISCLOSURE_SCORE or ENVIRON_DISCLOSURE_SCORE) + 𝛽2(TOT_DEBT_TO_TOT_EQY) +𝛽3(CUR_RATIO) + 𝛽4(log(BS_TOT_ASSET) + e` <br>
 
 <a id ='results'></a>
