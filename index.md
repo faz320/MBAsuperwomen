@@ -92,8 +92,9 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 
 #### Bloomberg Query Language
 -- BQL is written in Excel in Bloomberg terminals to download the data in batches <br>
+-- ‘SPX Index’ retrieves information for S&P 500 firms <br>
 -- BQL Example: <br>
-`‘A US = B4& "EQUITY" = BDH(B3, $C$1, A3, A3, "Currency=USD", "Period=FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
+`‘A US = B4& "EQUITY" =BDH(B3, $C$1, A3, A3, "Currency = USD", "Period = FY", "BEST_FPERIOD_OVERRIDE = FY", "FILING_STATUS = MR", "Sort = A", "Dates = H", "DateFormat = P", "Fill = —", "Direction = H", "UseDPDF = Y")’`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;> **B3** represents the ticker symbol <br>
 &nbsp;&nbsp;&nbsp;&nbsp;> **C1** represents the variable name <br>
 &nbsp;&nbsp;&nbsp;&nbsp;> **A3** represents the fiscal year <br>
@@ -105,10 +106,48 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 </p>
 <br>
 
-### Data Transformation
--- The dataset is in a firm-year format. Mean values of the ESG scores and financial ratios were taken, when analyzing the relationship between the financial performance and ESG of the firms. Nature log was applied to total asset observations to mitigate the potential issues related to measurement scaling <br>
--- All ESG scores are expressed in a range from 0.1 for companies that disclose a minimum amount of governance data to 100 for those that disclose every data point collected by Bloomberg. Companies that do not disclose anything will show a value of 0 <br>
--- Our credit scores are based on the Bloomberg default risk model. The scores are in the format of a combination of number and letter format. For example, 1-year default risk IG2 which represents an estimated 1-year default probability between 0.002%-0.004%. For the purpose of this 
+<p align="center">
+  <img src="pics/figure 1 - tesla v2.png" alt="Figure 1" width="800"/>
+</p>
+<br>
+
+#### Dataset Summary
+
+<p align="center">
+  <img src="pics/table 1 - summary v2.png" alt="Table 1" width="800"/>
+</p>
+<br>
+
+### Data Transformation and Cleaning
+-- The dataset is in a firm-year format. Mean values of the ESG scores and financial ratios were used when analyzing the relationship between the financial performance and ESG rating of the firms <br>
+-- All ESG scores are expressed in a range between 0.1 and 100, from the very minimum governance data disclosed to all data disclosed, as collected by Bloomberg. Companies with zero disclosure will show a value of 0 <br>
+-- The dataset contains many missing values. As shown in Table 3, 17.4% of the current ratio and 11.5% of ESG disclosure, environmental disclosure, social disclosure and governmental disclosure each are missing. The missing values were ignored as part of this assessment <br>
+
+<p align="center">
+  <img src="pics/table 2 - missing values v2.png" alt="Table 2" width="800"/>
+</p>
+<br>
+
+-- Our credit scores are based on the Bloomberg default risk model, expressed in a combination of both numbers and letters <br>
+&nbsp;&nbsp;&nbsp;&nbsp;> For example, 1-year default risk IG2 which represents an estimated 1-year default probability between 0.002%-0.004%. For the purpose of this analysis, the maximum value of the range was assigned to the corresponding risk (i.e., 0.004%) <br>
+
+<p align="center">
+  <img src="pics/figure 2 - american airline v2.png" alt="Figure 2" width="800"/>
+</p>
+<br>
+
+-- The dataset was also sliced into two sets (2011-2015 and 2016-2021) to compare the findings pre- and post- Paris Agreement <br>
+
+### Relationship Analysis
+-- **Visualization:** Correlation heatmap and scatter plots were used to visualize the relationship between different pairs of variables. Boxplots were used to visualize the changes over the years. All figures can be found in later sections <br>
+-- **Regression analysis:** 12 multivariate regression models were constructed, 4 regressions for the profitability variable, aka. ROA, across all years. Another 8 regressions were constructed for the profitability variable to compare the effect before and after the Paris Agreement. Nature log was applied to total asset observations to mitigate the potential issues related to measurement scaling. The following are the generalized regression formulas that were used in this analysis
+`RETURN_ON_ASSET = ɑ + 𝛽1(ESG_DISCLOSURE_SCORE, SOCIAL_DISCLOSURE_SCORE, GOVNCE_DISCLOSURE_SCORE or ENVIRON_DISCLOSURE_SCORE) + 𝛽2(TOT_DEBT_TO_TOT_EQY) + 𝛽3(CUR_RATIO) + 𝛽4(log(BS_TOT_ASSET) + e`
+`RN365 = ɑ + 𝛽1(ESG_DISCLOSURE_SCORE, SOCIAL_DISCLOSURE_SCORE, GOVNCE_DISCLOSURE_SCORE or ENVIRON_DISCLOSURE_SCORE) + 𝛽2(TOT_DEBT_TO_TOT_EQY) +𝛽3(CUR_RATIO) + 𝛽4(log(BS_TOT_ASSET) + e`
+
+
+
+
+
 
 
 <a id ='results'></a>
