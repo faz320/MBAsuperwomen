@@ -168,8 +168,6 @@ Based on the result, we accept hypothesis 1 that ESG disclosure has a significan
   <img src="pics/table 4 - regression .png" alt="Table 4" width="800"/>
 </p>
 
-
-
 #### ESG and Profitability Pre- and Post-Paris Agreement
 
 
