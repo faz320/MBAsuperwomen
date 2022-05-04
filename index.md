@@ -55,7 +55,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 </p>
 
 ### Research Question
-#### How do ESG ratings impact companies’ financial performance and credit rating?** <br>
+#### How do ESG ratings impact companies’ financial performance and credit rating? <br>
 -- We will study and aggregate three individual ESG categories (Environmental, Social and Governance) <br>
 -- We will then examine their impact on corporate financial performance including profitability and financial risk, as well as credit ratings <br>
 
@@ -138,7 +138,39 @@ All data including financial ratios, ESG disclosure scores and default risk from
 
 <a id ='results'></a>
 ## **III.&nbsp;RESULTS**
+### Descriptive Statistics
+**Table 3** describes the summary statistics of the variables used to examine the first and second hypotheses. Overall, the size of this sample is 503 firms. For corporate financial performance variables, most of them are accounting based indicators. The firm with medium characteristics in the sample has an ROA of 6.68, Debt over Equity ratio of 508.90, total assets of about $6.65 billion and current ratio of 1.88. In terms of the ESG disclosure scores, the mean sample firm has an environmental disclosure score of 24.74, social score of 22.77, governmental scores of 86.32 and overall ESG score of 44.66. In addition, firms did much better in governmental disclosures compared with environmental and social disclosures. The lowest environmental disclosure is 0, meaning there are firms which didn’t disclose environmental related issues at all. In contrast, some firms scored 100 for governmental disclosure.
 
+<p align="center">
+  <img src="pics/table 2 - summary 10 year v2.png" alt="Table 3" width="800"/>
+</p>
+
+**Figure 3** shows the change of different disclosure scores across 2011 to 2021 of all firms combined. Overall, the means of all disclosure scores increased from 2011 to 2020, with the biggest increase in environmental disclosure scores especially after 2015 when the Paris Agreement was signed by 196 countries in the world. However, all disclosure scores took a downward turn in 2021, which could relate to Covid-19 pandemic. 
+
+<p align="center">
+  <img src="pics/figure 3 - score changes.png" alt="Figure 3" width="800"/>
+</p>
+
+### Correlation Analysis
+Figure 4 shows the correlation analysis using the average of 10-Year observations of 504 Firms dataset. Overall, there are no strong correlations between the variables of interest. First, all of the selected ESG disclosure scores appear to have very weak negative correlations to firms’ profitability (from -0.09 to -0.032). Second, social disclosure scores appear to have the strongest correlation to the firms’ profitability compared with others. Third, the control variable (total assets) seems to have a moderate positive correlation to the profitability variable.  
+
+<p align="center">
+  <img src="pics/figure 4 - heatmap.png" alt="Figure 4" width="800"/>
+</p>
+
+### Regression Analysis
+#### ESG and Profitability
+Table 4. Shows the results of regression analysis using profitability as a dependent variable and the average of 10-Year observations of firms dataset as the input data. Overall, the adjusted R2 values are low, ranging between 0.12 to 0.13, but consistent for all the four models, probably due to the limited number of selected independent variables. Three out of four ESG related scores were found significant in the regression models, namely, overall ESG disclosure score, environmental disclosure score and government disclosure score (p<0.05). In contrast, social disclosure scores didn’t have a significant correlation with corporate financial performance. 
+
+Based on the result, we accept hypothesis 1 that ESG disclosure has a significantly positive impact on corporate profitability. In terms of the size of the impact, governance disclosure scores were found to be the most impactful compared with the other two. For 1 point increase in governance disclosure score, the firm’s ROA will increase by 0.17.  Therefore, we also accept hypothesis 2. 
+
+<p align="center">
+  <img src="pics/table 4 - regression .png" alt="Table 4" width="800"/>
+</p>
+
+
+
+#### ESG and Profitability Pre- and Post-Paris Agreement
 
 
 
