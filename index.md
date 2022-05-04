@@ -187,11 +187,13 @@ Therefore, we **accept our hypothesis 3** that there are major differences in te
   <img src="pics/table 5.png" alt="Table 5" width="800"/>
 </p>
 
-## THE END**
+## THE END
+### Back in January
 <p align="left">
   <img src="pics/matrix_python-e1578173764777.jpg" alt="Table 5" width="400"/>
 </p>
 
+### Today
 <p align="left">
   <img src="pics/22359c3e7d87baf960e7f72a67cc75f5.gif" alt="Table 5" width="300"/>
 </p>
