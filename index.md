@@ -10,7 +10,7 @@ II.&nbsp;&nbsp;<a href='#methodology'>Methodology</a> <br>
 III.&nbsp;<a href='#results'>Results</a> <br>
 
 <a id ='introduction'></a>
-## **I.&nbsp;&nbsp;&nbsp;INTRODUCTION**
+## I.&nbsp;&nbsp;&nbsp;INTRODUCTION
 ### ESG Background
 
 **ESG criteria** are a set of standards for a firm’s operations; refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company <br>
@@ -81,7 +81,7 @@ III.&nbsp;<a href='#results'>Results</a> <br>
 (4) ESG factors have a significant correlation with corporate credit risks, which are measured by credit ratings <br>
 
 <a id ='methodology'></a>
-## **II.&nbsp;&nbsp;METHODOLOGY**
+## II.&nbsp;&nbsp;METHODOLOGY
 ### Data Collection 
 #### Data Source
 All data including financial ratios, ESG disclosure scores and default risk from **2011 to 2021** of **S&P 500 firms** were retrieved from **Bloomberg Terminals** located in the Rauch Business Center at Lehigh University <br>
@@ -137,7 +137,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 `RN365 = ɑ + 𝛽1(ESG_DISCLOSURE_SCORE, SOCIAL_DISCLOSURE_SCORE, GOVNCE_DISCLOSURE_SCORE or ENVIRON_DISCLOSURE_SCORE) + 𝛽2(TOT_DEBT_TO_TOT_EQY) +𝛽3(CUR_RATIO) + 𝛽4(log(BS_TOT_ASSET) + e` <br>
 
 <a id ='results'></a>
-## **III.&nbsp;RESULTS**
+## III.&nbsp;RESULTS
 ### Descriptive Statistics
 **Table 3** below describes the summary statistics of the variables used to examine the first and second hypotheses. Overall, the size of this sample is 503 firms. Most of the corporate financial performance variables are accounting based indicators. The firm with median characteristics in the sample has an ROA of 6.68, Debt over Equity ratio of 508.90, total assets of about $6.65 billion and current ratio of 1.88. In terms of the ESG disclosure scores, the mean sample firm has an environmental disclosure score of 24.74, social score of 22.77, governmental scores of 86.32 and overall ESG score of 44.66. In addition, **firms did much better in governmental disclosures compared with environmental and social disclosures**. The lowest environmental disclosure is 0, meaning there are firms which didn’t disclose environmental related issues at all. In contrast, some firms scored 100 for governmental disclosure.
 
@@ -186,6 +186,7 @@ Therefore, we **accept our hypothesis 3** that there are major differences in te
 <p align="center">
   <img src="pics/table 5.png" alt="Table 5" width="800"/>
 </p>
+<br><br><br>
 
 ## THE END
 ### Prof Bowen Back in January
