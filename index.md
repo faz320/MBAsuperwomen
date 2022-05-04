@@ -1,11 +1,11 @@
 # ESG Impact on Financial Performance
-# MBA Superwomen
+## MBA Superwomen
 <img src="pics/superwomen.png" alt="superwomen" width="400"/>
 <br>
 **_You will never know who's who!_**
 <br>
 
-# Agenda
+## Agenda
 I.&nbsp;&nbsp;&nbsp;<a href='#introduction'>Introduction</a> <br>
 II.&nbsp;&nbsp;<a href='#methodology'>Methodology</a> <br>
 III.&nbsp;<a href='#results'>Results</a> <br>
