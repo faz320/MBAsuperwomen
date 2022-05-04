@@ -176,7 +176,7 @@ All data including financial ratios, ESG disclosure scores and default risk from
 #### ESG and Profitability
 **Table 4** below shows the result of regression analysis using profitability as a dependent variable and the average of 10-year observations of firms as the input data. Overall, the adjusted **R2 values are low**, ranging between 0.12 to 0.13, but consistent for all the four models, potentially due to the limited number of independent variables selecte. 
 
-Three out of four ESG related scores were **found significant** in the regression models - the overall ESG, environmental and government disclosure scores (p<0.05). In contrast, the social disclosure scores did not have a significant correlation with corporate financial performance. 
+Three out of four ESG related scores were **found significant** in the regression models - the overall ESG, environmental and governance disclosure scores (p<0.05). In contrast, the social disclosure scores did not have a significant correlation with corporate financial performance. 
 
 Based on the result, we **accept hypothesis 1** that ESG disclosure has a significantly positive impact on corporate profitability. In terms of the size of the impact, governance disclosure scores were found to be the most impactful compared with the other two. For 1 point increase in governance disclosure score, the firm’s ROA will increase by 0.17. Therefore, we also **accept hypothesis 2**. 
 
@@ -200,7 +200,7 @@ Therefore, we **accept our hypothesis 3** that there are major differences in te
 #### ESG and Financial Risks
 **Table 6** below shows the regression analysis using financial risks as a dependent variable and the average of 10-year observations of a subset of 154 firms dataset as the input data. 
 
-All four ESG related scores were found **significant** in the regression models - the overall ESG, environmental and government disclosure scores (p<0.05). Therefore, we **accept our hypothesis 4** that ESG factors have a significant correlation with corporate credit risks, measured by default risk. 
+All four ESG related scores were found **significant** in the regression models - the overall ESG, environmental and governance disclosure scores (p<0.05). Therefore, we **accept our hypothesis 4** that ESG factors have a significant correlation with corporate credit risks, measured by default risk. 
 
 Interestingly, the governance factors have a slightly negative correlation to corporate credit risks, while the other social factors, environmental factors and overall ESG have slightly positive impacts. 
 
